@@ -12,7 +12,7 @@ app.use(cors());
 
 const prisma = new PrismaClient();
 
-app.get("/user", async (req, res) => {
+app.get("/users", async (req, res) => {
 
 
     const users = await prisma.user.findMany();
@@ -21,7 +21,7 @@ app.get("/user", async (req, res) => {
 
 })
 
-app.post("/user", async (req, res) => {
+app.post("/users", async (req, res) => {
 
     const validation = userSchema.safeParse(req.body);
 
