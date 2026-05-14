@@ -21,6 +21,28 @@ app.get("/users", async (req, res) => {
 
 })
 
+app.delete("/users/:id", async (req, res) => {
+
+    try {
+
+        const id = req.params.id;
+
+        const deleteUser = await prisma.user.delete({
+            where: {
+                id: id
+            }
+        })
+
+        return res.json(deleteUser);
+
+    } catch (error) {
+        return res.status(404).json({
+            message: "Usuário não encontrado!"
+        })
+    }
+})
+
+
 app.post("/users", async (req, res) => {
 
     const validation = userSchema.safeParse(req.body);
