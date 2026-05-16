@@ -11,6 +11,7 @@ A User Management API é uma API RESTful desenvolvida para gerenciamento de usu�
 O projeto foi desenvolvido utilizando Node.js, Express e TypeScript, aplicando conceitos amplamente utilizados em ambientes profissionais, como separação de responsabilidades, validação de dados, integração com banco NoSQL e utilização de ORM.
 
 🎯 Objetivos do Projeto
+
 Desenvolver uma API RESTful escalável
 Aplicar arquitetura em camadas
 Trabalhar com integração de banco NoSQL
@@ -18,6 +19,8 @@ Utilizar ORM para abstração do banco de dados
 Implementar validação de dados
 Utilizar TypeScript para maior segurança e tipagem
 Simular boas práticas utilizadas no mercado
+
+
 ✨ Funcionalidades
 👤 Gerenciamento de Usuários
 
