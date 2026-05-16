@@ -1,14 +1,18 @@
-🚀 User Management API
+🚀 Cadastro de Usuários
 API RESTful para Gerenciamento de Usuários
-🌐 API Online
 
-User Management API
+
+🌐 API Online
+https://backend-cadastro-usuarios-1.onrender.com/users
+
 
 📖 Sobre o Projeto
 
 A User Management API é uma API RESTful desenvolvida para gerenciamento de usuários, construída com foco em boas práticas de desenvolvimento backend, organização escalável de código e arquitetura moderna de aplicações.
 
+
 O projeto foi desenvolvido utilizando Node.js, Express e TypeScript, aplicando conceitos amplamente utilizados em ambientes profissionais, como separação de responsabilidades, validação de dados, integração com banco NoSQL e utilização de ORM.
+
 
 🎯 Objetivos do Projeto
 
@@ -21,7 +25,9 @@ Utilizar TypeScript para maior segurança e tipagem
 Simular boas práticas utilizadas no mercado
 
 
-✨ Funcionalidades
+
+✨ Funcionalidades:
+
 👤 Gerenciamento de Usuários
 
 ✔️ Cadastro de usuários
@@ -29,6 +35,7 @@ Simular boas práticas utilizadas no mercado
 ✔️ Listagem de usuários cadastrados
 
 ✔️ Remoção de usuários por ID
+
 
 ✅ Validação de Dados
 
@@ -51,6 +58,7 @@ Integração com:
 
 MongoDB
 
+
 Utilizando:
 
 Prisma
@@ -62,9 +70,11 @@ Node.js
 Express
 TypeScript
 
+
 🗄️ Banco de Dados & ORM
 MongoDB
 Prisma
+
 
 🧩 Validação & Ferramentas de Desenvolvimento
 Zod
@@ -82,7 +92,9 @@ Body da Requisição
   "age": 25
 }
 
+
 📄 Listar Usuários
+
 Endpoint
 GET /users
 Exemplo de Resposta
@@ -95,6 +107,7 @@ Exemplo de Resposta
   }
 ]
 
+
 ❌ Deletar Usuário
 Endpoint
 DELETE /users/:id
@@ -105,10 +118,12 @@ Resposta de Sucesso
   "message": "Usuário deletado com sucesso"
 }
 
+
 ▶️ Como Executar o Projeto
 1️⃣ Instalar dependências
 npm install
 2️⃣ Configurar variáveis de ambiente
+
 
 Crie um arquivo .env na raiz do projeto:
 
