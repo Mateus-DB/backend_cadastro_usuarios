@@ -1,7 +1,6 @@
 🚀 User Management API
 API RESTful Escalável para Gerenciamento de Usuários
 🌐 API Online
-https://backend-cadastro-usuarios-1.onrender.com/users
 
 User Management API
 
@@ -9,8 +8,9 @@ User Management API
 
 API RESTful desenvolvida para gerenciamento de usuários, com foco em arquitetura escalável, organização de código e boas práticas de desenvolvimento backend.
 
-O projeto foi construído utilizando Node.js, Express e TypeScript, aplicando conceitos modernos amplamente utilizados em aplicações profissionais, como:
+O projeto foi construído utilizando Node.js, Express e TypeScript, aplicando conceitos modernos amplamente utilizados em aplicações profissionais.
 
+🎯 Principais Conceitos Aplicados
 Arquitetura em camadas
 Validação de dados
 Organização escalável de código
@@ -23,7 +23,9 @@ Desenvolvimento de APIs RESTful
 Funcionalidades implementadas
 
 ✔️ Cadastro de usuários
+
 ✔️ Listagem de usuários cadastrados
+
 ✔️ Remoção de usuários por ID
 
 ✅ Validação de Dados
@@ -32,9 +34,13 @@ Camada de validação implementada utilizando:
 
 Zod
 Regras aplicadas
-Nome obrigatório
-Email válido
-Idade obrigatória e numérica
+
+✔️ Nome obrigatório
+
+✔️ Email válido
+
+✔️ Idade obrigatória e numérica
+
 🗄️ Integração com Banco de Dados
 
 Aplicação integrada com:
@@ -110,12 +116,19 @@ npm run dev
 ✅ Funcionalidades implementadas
 
 ✔️ Arquitetura em camadas
+
 ✔️ API RESTful
+
 ✔️ Integração com MongoDB
+
 ✔️ Prisma ORM
+
 ✔️ Validação com Zod
+
 ✔️ Rotas GET, POST e DELETE
+
 ✔️ Tipagem estática com TypeScript
+
 ✔️ Deploy da API
 
 🚧 Próximas melhorias
@@ -129,12 +142,18 @@ Rotas de atualização de usuários
 
 Este projeto foi desenvolvido com foco no aprimoramento de conhecimentos em desenvolvimento backend moderno, arquitetura de APIs RESTful e construção de aplicações escaláveis.
 
-A aplicação demonstra conceitos amplamente utilizados em ambientes profissionais, incluindo:
+🧠 Conceitos demonstrados no projeto
 
-Separação de responsabilidades
-Organização escalável de pastas
-Validação de dados
-Desenvolvimento tipado com TypeScript
-Abstração do banco de dados com ORM
-Integração com banco NoSQL
-Estrutura preparada para crescimento da aplicação
+✔️ Separação de responsabilidades
+
+✔️ Organização escalável de pastas
+
+✔️ Validação de dados
+
+✔️ Desenvolvimento tipado com TypeScript
+
+✔️ Abstração do banco de dados com ORM
+
+✔️ Integração com banco NoSQL
+
+✔️ Estrutura preparada para crescimento da aplicação
