@@ -1,26 +1,25 @@
 🚀 User Management API
-API RESTful Escalável para Gerenciamento de Usuários
+API RESTful para Gerenciamento de Usuários
 🌐 API Online
 
 User Management API
 
 📖 Sobre o Projeto
 
-API RESTful desenvolvida para gerenciamento de usuários, com foco em arquitetura escalável, organização de código e boas práticas de desenvolvimento backend.
+A User Management API é uma API RESTful desenvolvida para gerenciamento de usuários, construída com foco em boas práticas de desenvolvimento backend, organização escalável de código e arquitetura moderna de aplicações.
 
-O projeto foi construído utilizando Node.js, Express e TypeScript, aplicando conceitos modernos amplamente utilizados em aplicações profissionais.
+O projeto foi desenvolvido utilizando Node.js, Express e TypeScript, aplicando conceitos amplamente utilizados em ambientes profissionais, como separação de responsabilidades, validação de dados, integração com banco NoSQL e utilização de ORM.
 
-🎯 Principais Conceitos Aplicados
-Arquitetura em camadas
-Validação de dados
-Organização escalável de código
-Integração com banco de dados NoSQL
-Utilização de ORM
-Tipagem estática com TypeScript
-Desenvolvimento de APIs RESTful
+🎯 Objetivos do Projeto
+Desenvolver uma API RESTful escalável
+Aplicar arquitetura em camadas
+Trabalhar com integração de banco NoSQL
+Utilizar ORM para abstração do banco de dados
+Implementar validação de dados
+Utilizar TypeScript para maior segurança e tipagem
+Simular boas práticas utilizadas no mercado
 ✨ Funcionalidades
 👤 Gerenciamento de Usuários
-Funcionalidades implementadas
 
 ✔️ Cadastro de usuários
 
@@ -30,20 +29,22 @@ Funcionalidades implementadas
 
 ✅ Validação de Dados
 
-Camada de validação implementada utilizando:
+A aplicação possui validação de dados utilizando:
 
 Zod
-Regras aplicadas
+Regras de validação implementadas
 
 ✔️ Nome obrigatório
 
 ✔️ Email válido
 
-✔️ Idade obrigatória e numérica
+✔️ Idade obrigatória
 
-🗄️ Integração com Banco de Dados
+✔️ Validação de tipo numérico
 
-Aplicação integrada com:
+🗄️ Banco de Dados
+
+Integração com:
 
 MongoDB
 
@@ -58,7 +59,7 @@ TypeScript
 🗄️ Banco de Dados & ORM
 MongoDB
 Prisma
-🧩 Validação & Desenvolvimento
+🧩 Validação & Ferramentas de Desenvolvimento
 Zod
 Nodemon
 📡 Endpoints da API
@@ -123,7 +124,7 @@ npm run dev
 
 ✔️ Prisma ORM
 
-✔️ Validação com Zod
+✔️ Validação de dados com Zod
 
 ✔️ Rotas GET, POST e DELETE
 
@@ -138,17 +139,13 @@ Testes automatizados
 Documentação com Swagger
 Dockerização da aplicação
 Rotas de atualização de usuários
-💡 Objetivo do Projeto
-
-Este projeto foi desenvolvido com foco no aprimoramento de conhecimentos em desenvolvimento backend moderno, arquitetura de APIs RESTful e construção de aplicações escaláveis.
-
-🧠 Conceitos demonstrados no projeto
+💡 Conceitos Demonstrados no Projeto
 
 ✔️ Separação de responsabilidades
 
 ✔️ Organização escalável de pastas
 
-✔️ Validação de dados
+✔️ Estrutura modular
 
 ✔️ Desenvolvimento tipado com TypeScript
 
@@ -156,4 +153,8 @@ Este projeto foi desenvolvido com foco no aprimoramento de conhecimentos em dese
 
 ✔️ Integração com banco NoSQL
 
-✔️ Estrutura preparada para crescimento da aplicação
+✔️ Validação de dados
+
+✔️ Estrutura preparada para escalabilidade
+
+✔️ Boas práticas de desenvolvimento backend
