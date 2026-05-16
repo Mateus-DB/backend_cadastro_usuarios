@@ -54,20 +54,26 @@ MongoDB
 Utilizando:
 
 Prisma
+
 🛠️ Tecnologias Utilizadas
+
 ⚙️ Backend
 Node.js
 Express
 TypeScript
+
 🗄️ Banco de Dados & ORM
 MongoDB
 Prisma
+
 🧩 Validação & Ferramentas de Desenvolvimento
 Zod
+
 Nodemon
 📡 Endpoints da API
 ➕ Criar Usuário
 Endpoint
+
 POST /users
 Body da Requisição
 {
@@ -75,6 +81,7 @@ Body da Requisição
   "email": "mateus@email.com",
   "age": 25
 }
+
 📄 Listar Usuários
 Endpoint
 GET /users
@@ -87,6 +94,7 @@ Exemplo de Resposta
     "age": 25
   }
 ]
+
 ❌ Deletar Usuário
 Endpoint
 DELETE /users/:id
@@ -96,15 +104,7 @@ Resposta de Sucesso
 {
   "message": "Usuário deletado com sucesso"
 }
-📁 Estrutura do Projeto
-src/
-├── controllers/
-├── services/
-├── routes/
-├── schemas/
-├── config/
-├── app.ts
-└── server.ts
+
 ▶️ Como Executar o Projeto
 1️⃣ Instalar dependências
 npm install
