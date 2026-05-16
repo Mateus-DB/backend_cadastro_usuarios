@@ -1,21 +1,16 @@
-🚀 Cadastro de Usuários
-API RESTful para Gerenciamento de Usuários
+🚀 USER MANAGEMENT API
+API RESTFUL PARA GERENCIAMENTO DE USUÁRIOS
+🌐 API ONLINE
 
+User Management API
 
-🌐 API Online
-https://backend-cadastro-usuarios-1.onrender.com/users
-
-
-📖 Sobre o Projeto
+📖 SOBRE O PROJETO
 
 A User Management API é uma API RESTful desenvolvida para gerenciamento de usuários, construída com foco em boas práticas de desenvolvimento backend, organização escalável de código e arquitetura moderna de aplicações.
 
-
 O projeto foi desenvolvido utilizando Node.js, Express e TypeScript, aplicando conceitos amplamente utilizados em ambientes profissionais, como separação de responsabilidades, validação de dados, integração com banco NoSQL e utilização de ORM.
 
-
-🎯 Objetivos do Projeto
-
+🎯 OBJETIVOS DO PROJETO
 Desenvolver uma API RESTful escalável
 Aplicar arquitetura em camadas
 Trabalhar com integração de banco NoSQL
@@ -23,12 +18,9 @@ Utilizar ORM para abstração do banco de dados
 Implementar validação de dados
 Utilizar TypeScript para maior segurança e tipagem
 Simular boas práticas utilizadas no mercado
-
-
-
-✨ Funcionalidades:
-
-👤 Gerenciamento de Usuários
+✨ FUNCIONALIDADES
+👤 GERENCIAMENTO DE USUÁRIOS
+FUNCIONALIDADES IMPLEMENTADAS
 
 ✔️ Cadastro de usuários
 
@@ -36,13 +28,12 @@ Simular boas práticas utilizadas no mercado
 
 ✔️ Remoção de usuários por ID
 
-
-✅ Validação de Dados
+✅ VALIDAÇÃO DE DADOS
 
 A aplicação possui validação de dados utilizando:
 
 Zod
-Regras de validação implementadas
+REGRAS DE VALIDAÇÃO IMPLEMENTADAS
 
 ✔️ Nome obrigatório
 
@@ -52,52 +43,40 @@ Regras de validação implementadas
 
 ✔️ Validação de tipo numérico
 
-🗄️ Banco de Dados
+🗄️ BANCO DE DADOS
 
 Integração com:
 
 MongoDB
 
-
 Utilizando:
 
 Prisma
-
-🛠️ Tecnologias Utilizadas
-
-⚙️ Backend
+🛠️ TECNOLOGIAS UTILIZADAS
+⚙️ BACKEND
 Node.js
 Express
 TypeScript
-
-
-🗄️ Banco de Dados & ORM
+🗄️ BANCO DE DADOS & ORM
 MongoDB
 Prisma
-
-
-🧩 Validação & Ferramentas de Desenvolvimento
+🧩 VALIDAÇÃO & FERRAMENTAS DE DESENVOLVIMENTO
 Zod
-
 Nodemon
-📡 Endpoints da API
-➕ Criar Usuário
-Endpoint
-
+📡 ENDPOINTS DA API
+➕ CRIAR USUÁRIO
+ENDPOINT
 POST /users
-Body da Requisição
+BODY DA REQUISIÇÃO
 {
   "name": "Mateus",
   "email": "mateus@email.com",
   "age": 25
 }
-
-
-📄 Listar Usuários
-
-Endpoint
+📄 LISTAR USUÁRIOS
+ENDPOINT
 GET /users
-Exemplo de Resposta
+EXEMPLO DE RESPOSTA
 [
   {
     "id": "abc123",
@@ -106,33 +85,37 @@ Exemplo de Resposta
     "age": 25
   }
 ]
-
-
-❌ Deletar Usuário
-Endpoint
+❌ DELETAR USUÁRIO
+ENDPOINT
 DELETE /users/:id
-Exemplo
+EXEMPLO
 DELETE /users/abc123
-Resposta de Sucesso
+RESPOSTA DE SUCESSO
 {
   "message": "Usuário deletado com sucesso"
 }
-
-
-▶️ Como Executar o Projeto
-1️⃣ Instalar dependências
+📁 ESTRUTURA DO PROJETO
+src/
+├── controllers/
+├── services/
+├── routes/
+├── schemas/
+├── config/
+├── app.ts
+└── server.ts
+▶️ COMO EXECUTAR O PROJETO
+1️⃣ INSTALAR DEPENDÊNCIAS
 npm install
-2️⃣ Configurar variáveis de ambiente
-
+2️⃣ CONFIGURAR VARIÁVEIS DE AMBIENTE
 
 Crie um arquivo .env na raiz do projeto:
 
 DATABASE_URL="sua_string_do_mongodb"
 PORT=3000
-3️⃣ Executar o servidor
+3️⃣ EXECUTAR O SERVIDOR
 npm run dev
-📈 Evolução do Projeto
-✅ Funcionalidades implementadas
+📈 EVOLUÇÃO DO PROJETO
+✅ FUNCIONALIDADES IMPLEMENTADAS
 
 ✔️ Arquitetura em camadas
 
@@ -150,14 +133,14 @@ npm run dev
 
 ✔️ Deploy da API
 
-🚧 Próximas melhorias
+🚧 PRÓXIMAS MELHORIAS
 Tratamento global de erros
 Middleware de autenticação
 Testes automatizados
 Documentação com Swagger
 Dockerização da aplicação
 Rotas de atualização de usuários
-💡 Conceitos Demonstrados no Projeto
+💡 CONCEITOS DEMONSTRADOS NO PROJETO
 
 ✔️ Separação de responsabilidades
 
