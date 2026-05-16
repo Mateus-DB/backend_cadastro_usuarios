@@ -1,60 +1,55 @@
-# 📌 User Registration API
+🚀 Cadastro de usuários | Backend RESTful Service
 
 🌐 API online:
 https://backend-cadastro-usuarios-1.onrender.com/users
 
-API REST para gerenciamento de usuários, desenvolvida com Node.js e Express.
+API RESTful para gerenciamento de usuários, desenvolvida com foco em boas práticas de backend, arquitetura em camadas e integração com banco de dados NoSQL.
 
-Este projeto foi criado com foco no aprimoramento de conceitos de backend, incluindo organização em camadas, uso de ORM e integração com banco de dados NoSQL.
+O projeto foi construído utilizando Node.js, Express e TypeScript, aplicando conceitos modernos de desenvolvimento backend, organização escalável de código e utilização do Prisma ORM com MongoDB.
 
----
+✨ Funcionalidades
 
-## 🚀 Funcionalidades
+✔️ Cadastro de usuários
+✔️ Listagem de usuários cadastrados
+✔️ Remoção de usuários por ID
+✔️ Validação de dados com Zod
+✔️ Integração com banco de dados MongoDB
+✔️ Estrutura organizada em camadas
+✔️ API REST seguindo boas práticas de desenvolvimento
 
-* Criar usuários com:
+🛠️ Stack Tecnológica
+Node.js
+Express
+TypeScript
+Prisma
+MongoDB
+Zod
+Nodemon
 
-  * Nome
-  * Email
-  * Idade
-* Listar todos os usuários cadastrados
 
----
+📡 Endpoints da API
+➕ Criar Usuário
 
-## 🛠️ Tecnologias utilizadas
+POST /users
 
-* Node.js
-* Express
-* Prisma ORM
-* MongoDB
-* Nodemon
-
----
-
-## 📡 Rotas da API
-
-### ➕ Criar usuário
-
-**POST** `/users`
-
-**Body:**
-
-```json
+Body
 {
   "name": "Mateus",
   "email": "mateus@email.com",
   "age": 25
 }
-```
 
----
+Validações aplicadas
+Nome obrigatório
+Email válido
+Idade numérica
 
-### 📄 Listar usuários
 
-**GET** `/users`
+📄 Listar Usuários
 
-**Resposta:**
+GET /users
 
-```json
+Resposta
 [
   {
     "id": "abc123",
@@ -63,55 +58,45 @@ Este projeto foi criado com foco no aprimoramento de conceitos de backend, inclu
     "age": 25
   }
 ]
-```
 
----
 
-## ▶️ Como rodar o projeto
+❌ Deletar Usuário
 
-```bash
+DELETE /users/:id
+
+Exemplo
+DELETE /users/abc123
+Resposta
+{
+  "message": "Usuário deletado com sucesso"
+}
+
+
+▶️ Como executar o projeto
 # instalar dependências
 npm install
 
-# rodar o servidor
+# executar ambiente de desenvolvimento
 npm run dev
-```
+🔐 Variáveis de Ambiente
 
----
+Crie um arquivo .env na raiz do projeto:
 
-## 🔐 Variáveis de ambiente
-
-Crie um arquivo `.env` na raiz do projeto com:
-
-```env
 DATABASE_URL="sua_string_do_mongodb"
 PORT=3000
-```
-
----
-
-## 📁 Estrutura do projeto
-
-```
+📁 Estrutura do Projeto
 src/
 ├── controllers/
 ├── services/
 ├── routes/
+├── schemas/
 ├── config/
-├── app.js
-└── server.js
-```
+├── app.ts
+└── server.ts
 
----
 
-## 📈 Próximos passos
+💡 Sobre o Projeto
 
-* [ ] Implementar validação de dados
-* [ ] Desenvolver frontend da aplicação
-* [ ] Realizar deploy da API
+Este projeto foi desenvolvido com o objetivo de fortalecer conhecimentos em desenvolvimento backend moderno, incluindo criação de APIs RESTful, arquitetura em camadas, validação de dados e integração com banco de dados NoSQL.
 
----
-
-## 💡 Sobre o projeto
-
-Este projeto faz parte do meu aprendizado em desenvolvimento backend, com foco na construção de APIs bem estruturadas e escaláveis.
+A aplicação utiliza TypeScript para tipagem estática, Prisma ORM para comunicação com o banco de dados e Zod para garantir maior segurança e confiabilidade na validação das informações recebidas pela API.
