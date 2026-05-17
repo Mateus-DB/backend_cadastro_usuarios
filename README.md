@@ -1,4 +1,4 @@
-# 🚀 USER MANAGEMENT API
+# 🚀 Cadastro de usuários
 
 ## API RESTFUL PARA GERENCIAMENTO DE USUÁRIOS
 
@@ -6,7 +6,7 @@
 
 # 🌐 API ONLINE
 
-[User Management API](https://backend-cadastro-usuarios-1.onrender.com/users?utm_source=chatgpt.com)
+https://backend-cadastro-usuarios-1.onrender.com/users
 
 ---
 
