@@ -20,9 +20,8 @@ O projeto foi construído com foco em:
 * Organização profissional de código
 * Boas práticas de desenvolvimento backend
 * Estrutura modular
-* Integração com banco NoSQL
+* Integração com banco MongoDB
 * Validação de dados
-* Tipagem estática com TypeScript
 
 ---
 
@@ -37,8 +36,6 @@ O projeto foi construído com foco em:
 * Utilizar ORM para abstração do banco de dados
 
 * Implementar validação de dados
-
-* Utilizar TypeScript para maior segurança e escalabilidade
 
 * Simular práticas utilizadas em aplicações profissionais
 
@@ -100,7 +97,7 @@ Validação implementada utilizando:
 
 * Express
 
-* TypeScript
+* Javascript
 
 ---
 
@@ -299,8 +296,6 @@ npm run dev
 ✔️ Organização escalável de pastas
 
 ✔️ Estrutura modular
-
-✔️ Desenvolvimento tipado com TypeScript
 
 ✔️ Abstração do banco de dados com ORM
 
