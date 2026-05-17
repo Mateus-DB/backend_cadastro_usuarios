@@ -12,7 +12,7 @@ https://backend-cadastro-usuarios-1.onrender.com/users
 
 # 📖 SOBRE O PROJETO
 
-A **User Management API** é uma API RESTful desenvolvida para gerenciamento de usuários.
+O **Cadastro de usuários** é uma API RESTful desenvolvida para gerenciamento de usuários.
 
 O projeto foi construído com foco em:
 
@@ -266,8 +266,6 @@ npm run dev
 ✔️ Validação com Zod
 
 ✔️ Rotas GET, POST e DELETE
-
-✔️ Tipagem estática com TypeScript
 
 ✔️ Deploy da API
 
